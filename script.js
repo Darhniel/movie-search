@@ -72,6 +72,7 @@ function displayMovieCards(movies) {
   });
 }
 
+// function to create movie card
 function createMovieCard(movie) {
   const { Title, Poster, Year, imdbID } = movie;
 
@@ -92,6 +93,7 @@ function createMovieCard(movie) {
   return movieCard;
 }
 
+// function to create modal popup
 function openModal(imdbID) {
   const url = `${BASE_URL}&i=${encodeURIComponent(imdbID)}&plot=full`;
   // const url = `http://www.omdbapi.com/?i=${encodeURIComponent(imdbID)}&plot=full`
@@ -135,6 +137,7 @@ function openModal(imdbID) {
   // modalOverlay.classList.remove("hide");
 }
 
+// close modal
 closeModal.addEventListener("click", () => {
   modalOverlay.classList.add("hide");
   document.body.style.overflow = "auto";
@@ -147,6 +150,7 @@ sortSelect.addEventListener("change", () => {
   }
 });
 
+// function for sorting
 function sortResults(results) {
   const sortBy = sortSelect.value;
 
