@@ -131,7 +131,7 @@ div#modal-content {
     position: relative;
 }
 
-div#modal-content > img {
+div#modal-content > img#modal-poster {
     width: 50%;
 }
   
