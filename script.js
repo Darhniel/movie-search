@@ -51,7 +51,7 @@ function searchMovies(searchTerm) {
         // display movie cards
         displayMovieCards(sortedResults);
       } else {
-        movieContainer.innerHTML = `<p>No results found</p>`;
+        movieContainer.innerHTML = `<p style="color: red;">No results found</p>`;
       }
     })
     .catch((error) => {
