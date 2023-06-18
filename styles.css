@@ -130,6 +130,10 @@ div#modal-content {
     border-radius: 0.5rem;
     position: relative;
 }
+
+div#modal-content > img {
+    width: 50%;
+}
   
 span.close {
     position: absolute;
