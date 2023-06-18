@@ -73,6 +73,7 @@ div.movie-card {
     background-repeat: no-repeat;
     background-size: 15rem 22rem;
     border-radius: 1rem;
+    position: relative;
 }
   
 div.movie-card:hover {
@@ -80,6 +81,7 @@ div.movie-card:hover {
 }
   
 div.movie-details {
+    background-color: rgba(255, 255, 255, .3);
     backdrop-filter: blur(4px);
     color: #f3f3f3;
 }
@@ -89,7 +91,7 @@ div.movie-details > h5 {
     padding: 1rem 0.5rem 0;
     text-align: center;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 div.movie-details > p {
@@ -97,15 +99,17 @@ div.movie-details > p {
     margin: 1rem 0;
 }
   
-div.movie-details > button {
+div.movie-details + button {
     margin: 1.25rem 0;
     display: block;
-    width: 100%;
+    width: 100.5%;
     padding: 1rem 0.5rem;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+    position: absolute;
+    bottom: -3rem;
 }
   
 div.modal-overlay { 

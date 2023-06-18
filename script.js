@@ -85,8 +85,8 @@ function createMovieCard(movie) {
     <div class="movie-details">
       <h5>${Title}</h5>
       <p>${Year}</p>
-      <button onclick="openModal('${imdbID}')">View Details</button>
     </div>
+    <button onclick="openModal('${imdbID}')">View Details</button>
   `;
   movieCard.innerHTML = html;
   movieCard.style.backgroundImage = `url(${poster})`;
