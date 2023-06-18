@@ -7,6 +7,7 @@ This is a movie search web application that allows users to search for movies an
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
+- [Live Site](#live-site)
 
 ## Installation
 
@@ -28,3 +29,5 @@ This is a movie search web application that allows users to search for movies an
 - Movie details: Users can view detailed information about each movie, including the title, release year, plot, and cast.
 - Responsive design: The web application is designed to be usable on both desktop and mobile devices.
 
+#Live-Site
+You can check out the live web application here : https://darhniel.github.io/movie-search/
