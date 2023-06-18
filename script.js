@@ -101,7 +101,6 @@ function openModal(imdbID) {
   fetch(url)
     .then((response) => response.json())
     .then((data) => {
-      console.log(data)
       if (data.Response === "True") {
         modalTitle.textContent = data.Title;
         modalPoster.src = data.Poster === "N/A" ? "no-poster.jpg" : data.Poster;
