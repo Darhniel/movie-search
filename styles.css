@@ -57,8 +57,8 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
+    width: 85rem;
+    margin: 1.25rem auto;
 }
   
 div.movie-card {
@@ -66,7 +66,7 @@ div.movie-card {
     grid-template-rows: 13rem 9rem;
     width: 15rem;
     height: 22rem;
-    margin: 3rem;
+    margin: 3rem 1rem;
     background-color: #fff;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
