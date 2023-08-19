@@ -75,6 +75,7 @@ function displayMovieCards(movies) {
 // function to create movie card
 function createMovieCard(movie) {
   const { Title, Poster, Year, imdbID } = movie;
+  console.log(movie)
 
   const movieCard = document.createElement("div");
   movieCard.classList.add("movie-card");
